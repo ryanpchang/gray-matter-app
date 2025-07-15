@@ -19,7 +19,7 @@ const sections = [
 
 const Home = () => {
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 20 }} className="background" classname="route-content">
       <h1>Welcome to the Site</h1>
       {sections.map((section) => (
         <div key={section.path} style={{ marginBottom: 10 }}>
