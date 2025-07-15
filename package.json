@@ -14,7 +14,8 @@
     "react-mammoth": "^1.0.3",
     "react-router-dom": "^7.6.3",
     "react-scripts": "^0.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
