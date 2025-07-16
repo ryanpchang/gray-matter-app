@@ -14,12 +14,17 @@ import Neo from './sections/neo';
 import Peds from './sections/peds';
 import Im from './sections/im';
 import Surgery from './sections/surgery';
-
-
+import HPI from './sections/GeneralTopics/HPI'
+import Discharge from './sections/GeneralTopics/Discharge'
+import ROS from './sections/GeneralTopics/ROS';
+import PE from './sections/GeneralTopics/PE';
+import Presentation from './sections/GeneralTopics/Presentation'; // Import the Presentation component
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/GeneralTopics" element={<GeneralTopics />} />
@@ -36,6 +41,12 @@ function App() {
         <Route path="/peds" element={<Peds />} />
         <Route path="/im" element={<Im />} />
         <Route path="/surgery" element={<Surgery />} />
+        <Route path="/HPI" element={<HPI />} />
+        <Route path="/Discharge" element={<Discharge />} />
+        <Route path="/ROS" element={<ROS />} />
+        <Route path="/PE" element={<PE />} />
+        <Route path="/Presentation" element={<Presentation />} /> {/* Add the Presentation route */}
+
 
         {/* Add up to Section16 */}
       </Routes>
