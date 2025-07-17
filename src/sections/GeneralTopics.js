@@ -75,7 +75,7 @@ const GeneralTopics = () => {
               <img
                 src="/aha-2021-cardiac-arrest-algorithm-diagram.jpg"
                 alt="Cardiac Arrest Algorithm"
-                style={{ width: '50%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </center>
           </div>
@@ -101,7 +101,7 @@ const GeneralTopics = () => {
               <img
                 src="/aha-acls-2020-bradycardia-algorithm.jpg"
                 alt="Bradycardia Algorithm"
-                style={{ width: '50%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </center>
           </div>
@@ -128,7 +128,7 @@ const GeneralTopics = () => {
               <img
                 src="/Website-Tachycardia-Algorithm-Diagram.jpg" // Make sure this image exists in public
                 alt="Tachycardia Algorithm"
-                style={{ width: '50%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </center>
           </div>
@@ -155,7 +155,7 @@ const GeneralTopics = () => {
               <img
                 src="/2022-Website-ACS-Algorithm-Diagram-s.jpg" // Make sure this image exists in public
                 alt="ACS Algorithm"
-                style={{ width: '50%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </center>
           </div>
