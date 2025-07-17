@@ -3,6 +3,7 @@ import Home from './components/Home';
 import GeneralTopics from './sections/GeneralTopics';
 import SurvivalGuideEMR from './sections/SurvivalGuideEMR';
 import Labs from './sections/Labs';
+import Imaging from './sections/Imaging';
 import Neurology from './sections/Neurology';
 import Psychiatry from './sections/Psychiatry';
 import Labor from './sections/Labor';
@@ -30,6 +31,7 @@ function App() {
         <Route path="/GeneralTopics" element={<GeneralTopics />} />
         <Route path="/SurvivalGuideEMR" element={<SurvivalGuideEMR />} />
         <Route path="/Labs" element={<Labs />} />
+        <Route path="/Imaging" element={<Imaging />}/>
         <Route path="/Neurology" element={<Neurology />} />
         <Route path="/Psychiatry" element={<Psychiatry />} />
         <Route path="/Labor" element={<Labor />} />
