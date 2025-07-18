@@ -4,6 +4,7 @@ const sections = [
   { title: "General Topics", path: "/GeneralTopics" },
   { title: "Survival Guide for EMR", path: "/SurvivalGuideEMR" },
   { title: "Labs", path: "/Labs" },
+  { title: "Imaging", path: "/Imaging" },
   { title: "Neurology", path: "/Neurology" },
   { title: "Psychiatry", path: "/Psychiatry" },
   { title: "ObGyn: Labor & Delivery", path: "/ld" },
@@ -15,6 +16,7 @@ const sections = [
   { title: "Pediatrics: Community", path: "/peds" },
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
+  { title: "Feedback Form", path: "/feedback" },
 ]
 
 const Home = () => {
