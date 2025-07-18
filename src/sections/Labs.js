@@ -56,6 +56,7 @@ const Labs = () => (
             <strong>Ask about medications and recent events:</strong> Recent infections, surgeries, and medications can influence CBC results
           </li>
         </ul>
+        <img src="/Labs1.jpg" alt="Quick tips for interpretation" style={{ width: '100%' }} />
 
         <h2>BMP vs CMP Indications</h2>
         <table>
@@ -109,15 +110,24 @@ const Labs = () => (
           </tbody>
         </table>
 
+        <img src="/Labs2.jpg" alt="BMP vs CMP Indications" style={{ width: '100%' }} />
+
         <h2>Electrolyte Basic Interpretation</h2>
         <p>
           Etiologies for each electrolyte deficiencies: <a href="https://clinicalproblemsolving.com/reasoning-content/dx-schema-electrolytes/" target="_blank" rel="noopener noreferrer">clinicalproblemsolving.com</a>
         </p>
 
+        <img src="/Labs3.jpg" alt="Electrolyte Basic Interpretation" style={{ width: '100%' }} />
+
+        <img src="/Labs4.jpg" alt="Electrolyte Basic Interpretation" style={{ width: '100%' }} />
+
         <h2>LFTs Basic Interpretation</h2>
+        <img src="/Labs5.png" alt="LFTs Hepatocellular" style={{ width: '100%' }} />
+        <img src="/Labs6.png" alt="LFTs Cholestatic" style={{ width: '100%' }} />
         {/* Add your LFTs interpretation content here */}
 
         <h2>Hemodynamic Interpretation</h2>
+        <img src="/Labs8.png" alt="Hemodynamic Interpretation" style={{ width: '100%' }} />
         <h3>Clinical Integration:</h3>
         <ul>
           <li>
@@ -127,6 +137,7 @@ const Labs = () => (
             <strong>Monitoring and Treatment:</strong> Hemodynamic monitoring guides fluid resuscitation, vasopressor use, and other interventions to optimize perfusion and cardiac function
           </li>
         </ul>
+        <img src="/Labs7.png" alt="Hemodynamic Interpretation" style={{ width: '100%' }} />
       </div>
     }
   />
