@@ -16,7 +16,12 @@ const sections = [
   { title: "Pediatrics: Community", path: "/peds" },
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
+  { title: "Metabolic Rounds", path: "/food" },
+  { title: "Transportation Rounds", path: "/transportation" },
+  { title: "Occupational Health Program", path: "/OHP" },
+  { title: "Wellness Resources", path: "/wellness" },
   { title: "Feedback", path: "/Feedback" },
+  { title: "About the Writers", path: "/writers" },
 ]
 
 const Home = () => {
