@@ -16,7 +16,7 @@ const sections = [
   { title: "Pediatrics: Community", path: "/peds" },
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
-  { title: "Feedback", path: "/Feedback" },
+  { title: "Feedback", path: "https://forms.office.com/Pages/ResponsePage.aspx?id=U7o9qE0SMk2I8LcoianpJmorG15APlpFnsjXeiP36-lUMzI3QlBCM0JGME9QOEJCRlJCM1ZHSU9OUy4u", external: true },
 ]
 
 const Home = () => {
